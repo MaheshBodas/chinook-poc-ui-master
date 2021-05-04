@@ -117,12 +117,12 @@ class Login extends Component {
               const strError = err.message
               var n = strError.search("Cannot read property 'data' of undefined");
               if(n > -1){
-                parsedErrorMessage = "Unable to reach to GraphQL based server please try after 5 minutes"
+                parsedErrorMessage = "Unable to reach to ChinookDB API server please try after 5 minutes"
               }
             }
             else {
               parsedErrorMessage = message
-            }            
+            }
           }
         }
         else {
