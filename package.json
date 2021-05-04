@@ -3,7 +3,15 @@
   "author": "Mahesh Bodas",
   "licence": "MIT",
   "version": "1.0.0",
+  "description": "An Web application to view entities in ChinookDB.",
+  "homepage": "https://chinook-poc-ui-master.herokuapp.com",
+  "copyright": "Copyright 2021 Mahesh Bodas",
+  "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MaheshBodas/chinook-poc-ui-master.git"
+  },
   "scripts": {
     "start": "serve -s build",
     "startdev": "react-scripts start",
