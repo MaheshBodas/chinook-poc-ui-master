@@ -1,6 +1,8 @@
 # Chinook DB PoC
 Chinook DB PoC is Front end application which consume DJango Rest API server. Its sends appropriate GET request to retrive data and uses POST request to create objects on server side.
 
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/MaheshBodas/chinook-poc-ui-master)
+
  Here is brief introduction to functionality it offers.
 
 1. View All Tracks screen lets user to view list of Tracks
